@@ -5,7 +5,7 @@ import square.SquarePeg;
 /**
  * Somewhere in client code...
  */
-public class Main {
+public class MainAdapter {
     public static void main(String[] args) {
         // Round fits round, no surprise.
         RoundHole hole = new RoundHole(5);
