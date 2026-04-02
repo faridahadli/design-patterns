@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Adapter/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Bridge/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Composite/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Decorator/code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

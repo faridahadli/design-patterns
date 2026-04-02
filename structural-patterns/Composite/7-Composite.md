@@ -4,17 +4,17 @@ The goal is to create a **class hierarchy** where "Part" objects and "Whole" obj
 
 ### 1.1.1 The Key Players
 
-- **Component:** An interface or abstract class that defines the operations common to both simple and complex objects (e.g., `execute()` or `getPrice()`).
+- **component:** An interface or abstract class that defines the operations common to both simple and complex objects (e.g., `execute()` or `getPrice()`).
     
-- **Leaf:** The basic building block. It implements the Component interface but has no "children." It does the actual work.
+- **Leaf:** The basic building block. It implements the component interface but has no "children." It does the actual work.
     
-- **Composite:** A container that stores child components (Leaves or other Composites). It implements the Component methods by typically delegating the work to its children.
+- **Composite:** A container that stores child components (Leaves or other Composites). It implements the component methods by typically delegating the work to its children.
 
 # 2 Structure
 
 ![Structure of the Composite design pattern](https://refactoring.guru/images/patterns/diagrams/composite/structure-en.png)
 
-1. The **Component** interface describes operations that are common to both simple and complex elements of the tree.
+1. The **component** interface describes operations that are common to both simple and complex elements of the tree.
     
 2. The **Leaf** is a basic element of a tree that doesn’t have sub-elements.
     Usually, leaf components end up doing most of the real work, since they don’t have anyone to delegate the work to.
@@ -80,7 +80,7 @@ The goal is to create a **class hierarchy** where "Part" objects and "Whole" obj
 
 ![[Pasted image 20260401154633.png]]
 
-## 6.1 The Component Interface
+## 6.1 The component Interface
 
 This defines the contract for both simple and complex objects.
 
@@ -89,7 +89,7 @@ Java
 ```Java
 import java.util.*;
 
-// The Component interface
+// The component interface
 interface Graphic {
     void move(int x, int y);
     void draw();
