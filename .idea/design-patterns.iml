@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Decorator/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Facade/code" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Flyweight/code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structural-patterns/Proxy/code" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
