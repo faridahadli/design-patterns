@@ -291,7 +291,7 @@ public class CompressionDecorator extends DataSourceDecorator {
 ### 7.1.6 `Main`
 
 ```Java
-public class Demo {
+public class MainCoR {
     public static void main(String[] args) {
         String salaryRecords = "Name,Salary\nJohn Smith,100000\nSteven Jobs,912000";
         DataSourceDecorator encoded = new CompressionDecorator(
